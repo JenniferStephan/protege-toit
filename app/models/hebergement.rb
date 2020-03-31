@@ -1,0 +1,2 @@
+class Hebergement < ApplicationRecord
+end
