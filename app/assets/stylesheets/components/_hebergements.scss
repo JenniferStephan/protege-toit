@@ -5,14 +5,14 @@
 }
 
 
-#search {
+#query {
     position: relative;
-    height: 6vh;
+    height: 8vh;
     top: -120px;
-    right: -474px;
-    width: 400px;
+    right: -380px;
+    width: 484px;
     margin-bottom: 15px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     outline: none;
     padding: 17px;
@@ -29,20 +29,27 @@
   height: fit-content;
 }
 
-.card {
-    padding: 9px;
-    text-align: left;
-    padding-left: 37px;
-    border-radius: 0 0 0 0;
-    background-color: #F9DEE5;
-    border-color: grey;
+.cards {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 789px;
+  background-color: rgba(249, 222, 229, 1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  right: -241px;
+  top: -90px;
+
 }
 
-.card h2 {
-    font-size: 16px;
+.cards h2 {
+    font-size: 25px;
+
 }
 
-.card p {
-    font-size: 12px;
+.cards p {
+    font-size: 20px;
+
 }
 

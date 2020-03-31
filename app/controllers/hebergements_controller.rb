@@ -1,15 +1,15 @@
 class HebergementsController < ApplicationController
 
   def index
-    @hebergements = Hebergement.geocoded # returns hebergements with coordinates
-
-    @markers = @hebergements.map do |hebergement|
-      {
-        lat: hebergement.latitude,
-        lng: hebergement.longitude
-      }
+    if params[:query].present?
+    hebergements = Hebergement.order(created_at: :asc)
+    sql_query = "hebergements.name ILIKE :query  OR hebergements.address ILIKE :query"
+      @hebergements = hebergements.where(sql_query, query: "%#{params[:query]}%")
+    else
+      @hebergements = Hebergement.all
     end
   end
+
 
   def show
     @hebergement = Hebergement.find(params[:id])
