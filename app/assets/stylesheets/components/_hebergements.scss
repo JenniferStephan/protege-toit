@@ -1,0 +1,48 @@
+
+.bandeau {
+  height: 40vh;
+  background-color: purple;
+}
+
+
+#search {
+    position: relative;
+    height: 6vh;
+    top: -120px;
+    right: -474px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 17px;
+}
+
+.cards-container {
+  width: 70%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 40px;
+  position: relative;
+  top: -100px;
+  background-color: rgb(249, 222, 229);
+  height: fit-content;
+}
+
+.card {
+    padding: 9px;
+    text-align: left;
+    padding-left: 37px;
+    border-radius: 0 0 0 0;
+    background-color: #F9DEE5;
+    border-color: grey;
+}
+
+.card h2 {
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 12px;
+}
+

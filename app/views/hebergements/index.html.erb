@@ -1,8 +1,25 @@
+<div class="bandeau">
+</div>
+
+<h1>Hébergements disponibles</h1>
+
+<input type="text" id="search">
+
+<div class="container cards-container">
+    <% @hebergements.each do |heb| %>
+
+    <div class="card d-flex">
+      <h2><%= heb.name.capitalize %></h2>
+
+      <div class="">
+        <i class="far fa-compass"></i>
+        <p><%= heb.address %></p>
+      </div>
+    </div>
+
+    <% end %>
+
+</div>
 
 
-<h1>hello</h1>
-
-      <div id="geocoder" class="geocoder"></div>
-      <div id="map" style="width: 100%;
-     height: 600px;" data-markers="<%= @markers.to_json %>" data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>" ></div>
 
