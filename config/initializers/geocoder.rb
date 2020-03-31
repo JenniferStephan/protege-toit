@@ -1,3 +1,4 @@
+
 Geocoder.configure(
   # Geocoding options
   # timeout: 3,                 # geocoding service timeout (secs)
@@ -17,6 +18,6 @@ Geocoder.configure(
   # always_raise: [],
 
   # Calculation options
-  # units: :mi,                 # :km for kilometers or :mi for miles
+  units: :km,                 # :km for kilometers or :mi for miles
   # distances: :linear          # :spherical or :linear
 )
