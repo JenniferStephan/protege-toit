@@ -1,2 +1,0 @@
-class HerbegementsController < ApplicationController
-end

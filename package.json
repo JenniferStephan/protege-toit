@@ -1,5 +1,7 @@
 {
   "name": "protege-toit",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "mapbox-gl": "^1.9.0"
+  }
 }

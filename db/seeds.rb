@@ -5,3 +5,20 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Hebergement.create(name: 'foyer cool',
+                    address: "13 rue Morand, Paris",
+                    nbmax: 4)
+
+Hebergement.create(name: 'foyer paisible',
+                    address: "20 rue Fontaine au Roi, Paris",
+                    nbmax: 7)
+
+Hebergement.create(name: 'foyer bourgeois',
+                    address: "28 avenue Foch, Paris",
+                    nbmax: 2)
+
+Hebergement.create(name: 'foyer beau',
+                    address: "150 rue Saint-Maur, Paris",
+                    nbmax: 8)
