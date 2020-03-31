@@ -21,9 +21,8 @@ class HebergementsController < ApplicationController
 
   def create
     @hebergement = Hebergement.new(heb_params)
-    @hebergement.user = current_user
     if @hebergement.save
-      redirect_to hebergement_path(@hebergement)
+      redirect_to root_path
     else
       render :new
     end
