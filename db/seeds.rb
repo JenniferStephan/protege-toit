@@ -7,18 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Hebergement.create(name: 'foyer cool',
-                    address: "13 rue Morand, Paris",
+Hebergement.create(name: 'ADALEA',
+                    address: "50, rue de la Corderie, 22 000 Saint-brieuc",
                     nbmax: 4)
 
-Hebergement.create(name: 'foyer paisible',
-                    address: "20 rue Fontaine au Roi, Paris",
+Hebergement.create(name: 'ADALEA 2',
+                    address: "38, rue de Paris, 22 000 Saint-brieuc",
                     nbmax: 7)
 
-Hebergement.create(name: 'foyer bourgeois',
-                    address: "28 avenue Foch, Paris",
+Hebergement.create(name: 'ADALEA 3',
+                    address: "30bis, rue Docteur Rochard, 22 000 Saint-brieuc",
                     nbmax: 2)
 
-Hebergement.create(name: 'foyer beau',
-                    address: "150 rue Saint-Maur, Paris",
+Hebergement.create(name: 'ADALEA 4',
+                    address: "9, rue Napoléon 1er, 56 300 Pontivy",
                     nbmax: 8)

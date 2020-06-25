@@ -3,7 +3,7 @@
 
 <div class="d-flex flex-row text-align-center">
   <div class="">
-    <%= form_tag hebergements_path, method: :get, class: "searchbar form-inline search-form-control" do %>
+    <%= form_tag hebs_path, method: :get, class: "searchbar form-inline search-form-control" do %>
       <%= text_field_tag :query,
         params[:query],
         class: "td form-control",
